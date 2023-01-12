@@ -1,6 +1,5 @@
 name: Publish with GitHub Actions
 
-# Uncomment the "on" block below to use
 on:
   push:
     branches:
