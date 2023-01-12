@@ -4,7 +4,7 @@ name: Publish with GitHub Actions
 on:
   push:
     branches:
-    - master
+    - github-action-publishing
   schedule:
     # Run this script every 15 minutes
     - cron:  '*/15 * * * *'
