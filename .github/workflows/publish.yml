@@ -39,7 +39,7 @@ jobs:
       with:
 #        github-token: ${{ secrets.GITHUB_TOKEN }}
         branch: main
-        repository: '.output/'
+        repository: output/
         commit_message: 'Published latest changes to RSS feeds'
         push_options: '--force'
 #        file_pattern: 'output/*'
