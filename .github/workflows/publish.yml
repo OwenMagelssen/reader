@@ -39,8 +39,9 @@ jobs:
       with:
 #        github-token: ${{ secrets.GITHUB_TOKEN }}
         branch: main
+        repository: 'output/'
         commit_message: 'Published latest changes to RSS feeds'
         push_options: '--force'
-        file_pattern: 'output/*'
+#        file_pattern: 'output/*'
         commit_user_name: GitHub Action Bubo Bot
         commit_user_email: action@github.com
