@@ -17,6 +17,7 @@ jobs:
       uses: actions/checkout@v3
       with:
         ref: main
+        token: ${{ secrets.GITHUB_TOKEN }}
     - name: Setup Node.js and install dependencies
       uses: actions/setup-node@v3
       with:
@@ -37,7 +38,6 @@ jobs:
     - name: Commit latest build to ./output folder
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
 #        github-token: ${{ secrets.GITHUB_TOKEN }}
         branch: main
         repository: output/
