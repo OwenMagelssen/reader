@@ -1,10 +1,16 @@
 {
-  "Game Dev Blogs": [
+  "Game Dev": [
     "https://owenmagelssen.com/index.xml",
     "https://www.alanzucconi.com/feed",
     "https://feeds.feedburner.com/JohnAustinBlog",
     "https://jobtalle.com/rss.xml",
-    "https://therealmjp.github.io/posts/index.xml"
+    "https://therealmjp.github.io/posts/index.xml",
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UCmtyQOKKmrMVaKuRXz02jbQ",
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UCa5JuMLinKqzftvX1YaBfOw",
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UC0JB7TSe49lg56u6qH8y_MQ",
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UCeDcND5tnRCP6ZoeqzkpryQ",
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UCG6MguMC0ntGCvVyaEwTPzw",
+    "https://www.youtube.com/feeds/videos.xml?channel_id=ID"
   ],
   "Electronics": [
     "https://hackaday.com/blog/feed/"
