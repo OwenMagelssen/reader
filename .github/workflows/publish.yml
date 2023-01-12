@@ -37,6 +37,7 @@ jobs:
     - name: Commit latest build to ./output folder
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
+        token: ${{ secrets.GITHUB_TOKEN }}
 #        github-token: ${{ secrets.GITHUB_TOKEN }}
         branch: main
         repository: output/
