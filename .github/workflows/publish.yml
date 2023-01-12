@@ -4,7 +4,7 @@ name: Publish with GitHub Actions
 on:
   push:
     branches:
-    - github-action-publishing
+    - main
   schedule:
     # Run this script every 15 minutes
     - cron:  '*/15 * * * *'
@@ -34,14 +34,3 @@ jobs:
         files: output/*
         name: GitHub Action Bubo Bot
         email: action@github.com
-#    - name: Commit latest build to ./output folder
-#      uses: stefanzweifel/git-auto-commit-action@v4
-#      with:
-##        github-token: ${{ secrets.GITHUB_TOKEN }}
-#        branch: main
-#        repository: output/
-#        commit_message: 'Published latest changes to RSS feeds'
-#        push_options: '--force'
-##        file_pattern: 'output/*'
-#        commit_user_name: GitHub Action Bubo Bot
-#        commit_user_email: action@github.com
