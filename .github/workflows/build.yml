@@ -24,7 +24,7 @@ jobs:
         uses: github-actions-x/commit@v2.9
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          push-branch: main
+          push-branch: netlify-deploy
           commit-message: 'Published latest changes to RSS feeds'
           force-add: 'true'
           files: output/*
