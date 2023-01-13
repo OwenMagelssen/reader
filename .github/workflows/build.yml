@@ -12,7 +12,7 @@ jobs:
       - name: Checkout main branch
         uses: actions/checkout@v3
         with:
-          ref: main
+          ref: netlify-deploy
       - name: Setup Node.js and install dependencies
         uses: actions/setup-node@v3
         with:
