@@ -15,10 +15,10 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout master branch
+      - name: Checkout deploy branch
         uses: actions/checkout@v3
         with:
-          ref: main
+          ref: netlify-deploy
       - name: Setup Node.js and install dependencies
         uses: actions/setup-node@v3
         with:
@@ -30,7 +30,7 @@ jobs:
         uses: github-actions-x/commit@v2.9
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          push-branch: netlify-deploy
+          push-branch: main
           commit-message: 'Published latest changes to RSS feeds'
           force-add: 'true'
           files: output/*
