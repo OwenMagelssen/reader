@@ -3,7 +3,7 @@ name: Publish with GitHub Actions
 on:
   push:
     branches:
-    - github-action-publishing
+    - main
   schedule:
     - cron:  '15 * * * *'
 
@@ -14,7 +14,7 @@ jobs:
     - name: Checkout master branch
       uses: actions/checkout@v3
       with:
-        ref: github-action-publishing
+        ref: main
     - name: Setup Node.js and install dependencies
       uses: actions/setup-node@v3
       with:
@@ -26,7 +26,7 @@ jobs:
       uses: github-actions-x/commit@v2.9
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
-        push-branch: github-action-publishing
+        push-branch: main
         commit-message: 'Published latest changes to RSS feeds'
         force-add: 'true'
         files: output/*
