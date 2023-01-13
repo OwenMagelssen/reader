@@ -15,10 +15,10 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout master branch
+      - name: Checkout deploy branch
         uses: actions/checkout@v3
         with:
-          ref: main
+          ref: netlify-deploy
       - name: Setup Node.js and install dependencies
         uses: actions/setup-node@v3
         with:
