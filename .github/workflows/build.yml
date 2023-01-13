@@ -4,13 +4,7 @@ on:
     branches:
       - main
   schedule:
-    # Run this script every 2 hrs
-    #  */m hr day month day_of_week
-    - cron:  '0 */2 * * *'
-  workflow_dispatch:
-    inputs:
-      tags:
-        description: 'Description Tag'
+    - cron:  '*/15 * * * *'
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -30,7 +24,7 @@ jobs:
         uses: github-actions-x/commit@v2.9
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          push-branch: main
+          push-branch: netlify-deploy
           commit-message: 'Published latest changes to RSS feeds'
           force-add: 'true'
           files: output/*
