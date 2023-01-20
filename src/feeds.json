@@ -18,8 +18,10 @@
     "https://halisavakis.com/feed",
     "https://bgolus.medium.com/feed"
   ],
-  "Electronics": [
-    "https://hackaday.com/blog/feed/"
+  "Maker": [
+    "https://hackaday.com/blog/feed/",
+    "https://retrotechjournal.com/feed/",
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UCJTsi9IYU1baF_Znrfd1Jxg"
   ],
   "News": [
     "https://feeds.twit.tv/twit.xml",
