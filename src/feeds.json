@@ -19,7 +19,8 @@
     "https://bgolus.medium.com/feed"
   ],
   "Events": [
-    "https://www.meetup.com/SeattleIndies/events/rss/"
+    "https://www.meetup.com/SeattleIndies/events/rss/",
+    "https://www.meetup.com/Seattle-Unity3D/events/rss/"
   ],
   "Maker": [
     "https://hackaday.com/blog/feed/",
