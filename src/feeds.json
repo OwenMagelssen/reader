@@ -17,7 +17,8 @@
     "https://www.youtube.com/feeds/videos.xml?channel_id=UCX4VrxYV1G9m7s5b5HbYuPw",
     "https://www.youtube.com/feeds/videos.xml?channel_id=UCa-mDKzV5MW_BXjSDRqqHUw",
     "https://halisavakis.com/feed",
-    "https://bgolus.medium.com/feed"
+    "https://bgolus.medium.com/feed",
+    "https://unity.com/releases/editor/lts-releases.xml"
   ],
   "Events": [
     "https://www.meetup.com/SeattleIndies/events/rss/"
