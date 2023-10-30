@@ -18,7 +18,8 @@
     "https://www.youtube.com/feeds/videos.xml?channel_id=UCa-mDKzV5MW_BXjSDRqqHUw",
     "https://halisavakis.com/feed",
     "https://bgolus.medium.com/feed",
-    "https://unity.com/releases/editor/lts-releases.xml"
+    "https://unity.com/releases/editor/lts-releases.xml",
+    "https://grumpygamer.com/rss"
   ],
   "Events": [
     "https://www.meetup.com/SeattleIndies/events/rss/"
